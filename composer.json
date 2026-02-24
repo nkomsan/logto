@@ -1,0 +1,6 @@
+{
+    "require": {
+        "logto/sdk": "^0.3.1",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
