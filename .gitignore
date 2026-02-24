@@ -7,9 +7,9 @@
 .env.*.local
 
 # Docker
-.dockerignore
-Dockerfile
-docker-compose.yml
+# .dockerignore
+# Dockerfile
+# docker-compose.yml
 
 # IDE/Editor
 .vscode/

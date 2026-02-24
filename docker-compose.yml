@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - LOGTO_ENDPOINT=${LOGTO_ENDPOINT}
+      - LOGTO_APP_ID=${LOGTO_APP_ID}
+      - LOGTO_APP_SECRET=${LOGTO_APP_SECRET}
+      - LOGTO_REDIRECT_URI=${LOGTO_REDIRECT_URI}
+      - LOGTO_POST_LOGOUT_REDIRECT_URI=${LOGTO_POST_LOGOUT_REDIRECT_URI}
+    restart: always
